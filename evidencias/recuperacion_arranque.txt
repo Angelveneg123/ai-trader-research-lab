@@ -1,0 +1,203 @@
+Prueba de arranque con ambos puertos libres
+Puertos ocupados por la prueba: []
+URL anunciada por el servidor: http://127.0.0.1:8001/
+HTTP 200 | Panel, JavaScript y CSS en el mismo origen.
+SIMULADA | Gráfico con velas y cotización en la misma solicitud. Tres selectores.
+SIMULADA | Tres ciclos distintos en SQLite y selección de los tres mercados en React.
+SIMULADA | HTTP 200 | SQLite → FastAPI → React
+Ciclo 95ce0631621389e55cd911da Vela UTC 2026-11-20T13:00:00+00:00 Respuesta UTC 2026-11-20T13:00:12+00:00
+El observador FastAPI sigue activo al cerrar el DOM. Último sondeo 2026-11-23T01:45:31.007864+00:00
+SIMULADA ['EURUSDmicro · gemini: WAIT guardado']
+SIMULADA ['USDJPYmicro · gemini: WAIT guardado']
+SIMULADA ['XAUUSDmicro · gemini: WAIT guardado']
+{'cycle_id': '95ce0631621389e55cd911da', 'provider': 'gemini', 'received_utc': '2026-11-20T13:00:12+00:00', 'action': 'WAIT'}
+Terminal MT5: /tmp/simulado_aitrader_ydwwpu56/AppData/Roaming/MetaTrader 5/terminal64.exe
+INFO:     Started server process [6]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Panel listo: http://127.0.0.1:8001/
+INFO:     127.0.0.1:45462 - "GET /api/prospective?symbol=EURUSDmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45464 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45462 - "GET /assets/index-OInz49jt.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45464 - "GET /assets/index-WmDusmXg.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45472 - "GET /api/research/audit?symbol=EURUSDmicro&limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45488 - "GET /api/research/observations?symbol=EURUSDmicro&limit=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45462 - "GET /api/prospective/markets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45494 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45470 - "GET /api/prospective?symbol=EURUSDmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45500 - "GET /api/prospective/markets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45464 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45464 - "GET /api/market/candles?symbol=EURUSDmicro&timeframe=M5&limit=120&include_quote=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45488 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45472 - "GET /api/research/observations?symbol=USDJPYmicro&limit=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45462 - "GET /api/market/candles?symbol=USDJPYmicro&timeframe=M5&limit=120&include_quote=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45470 - "GET /api/research/audit?symbol=USDJPYmicro&limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45464 - "GET /api/prospective?symbol=USDJPYmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45462 - "GET /api/market/candles?symbol=XAUUSDmicro&timeframe=M5&limit=120&include_quote=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45488 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45470 - "GET /api/research/audit?symbol=XAUUSDmicro&limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45464 - "GET /api/prospective?symbol=XAUUSDmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45472 - "GET /api/research/observations?symbol=XAUUSDmicro&limit=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45488 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45472 - "GET /api/research/observations?symbol=EURUSDmicro&limit=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45462 - "GET /api/market/candles?symbol=EURUSDmicro&timeframe=M5&limit=120&include_quote=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45470 - "GET /api/research/audit?symbol=EURUSDmicro&limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45464 - "GET /api/prospective?symbol=EURUSDmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45462 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6]
+
+Prueba de arranque con 8001 ocupado
+Puertos ocupados por la prueba: [8001]
+URL anunciada por el servidor: http://127.0.0.1:8002/
+HTTP 200 | Panel, JavaScript y CSS en el mismo origen.
+SIMULADA | Gráfico con velas y cotización en la misma solicitud. Tres selectores.
+SIMULADA | Tres ciclos distintos en SQLite y selección de los tres mercados en React.
+SIMULADA | HTTP 200 | SQLite → FastAPI → React
+Ciclo 95ce0631621389e55cd911da Vela UTC 2026-11-20T13:00:00+00:00 Respuesta UTC 2026-11-20T13:00:12+00:00
+El observador FastAPI sigue activo al cerrar el DOM. Último sondeo 2026-11-23T01:45:32.481534+00:00
+SIMULADA ['EURUSDmicro · gemini: WAIT guardado']
+SIMULADA ['USDJPYmicro · gemini: WAIT guardado']
+SIMULADA ['XAUUSDmicro · gemini: WAIT guardado']
+{'cycle_id': '95ce0631621389e55cd911da', 'provider': 'gemini', 'received_utc': '2026-11-20T13:00:12+00:00', 'action': 'WAIT'}
+Terminal MT5: /tmp/simulado_aitrader_0vaq7ubd/AppData/Roaming/MetaTrader 5/terminal64.exe
+Puerto 8001 no disponible. Usando el puerto 8002.
+INFO:     Started server process [23]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Panel listo: http://127.0.0.1:8002/
+INFO:     127.0.0.1:60646 - "GET /api/prospective?symbol=EURUSDmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60656 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60646 - "GET /assets/index-OInz49jt.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60656 - "GET /assets/index-WmDusmXg.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60674 - "GET /api/research/audit?symbol=EURUSDmicro&limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60690 - "GET /api/research/observations?symbol=EURUSDmicro&limit=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60646 - "GET /api/prospective/markets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60698 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60666 - "GET /api/prospective?symbol=EURUSDmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60702 - "GET /api/prospective/markets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60656 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60656 - "GET /api/market/candles?symbol=EURUSDmicro&timeframe=M5&limit=120&include_quote=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60674 - "GET /api/research/observations?symbol=USDJPYmicro&limit=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60646 - "GET /api/market/candles?symbol=USDJPYmicro&timeframe=M5&limit=120&include_quote=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60690 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60666 - "GET /api/research/audit?symbol=USDJPYmicro&limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60656 - "GET /api/prospective?symbol=USDJPYmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60646 - "GET /api/market/candles?symbol=XAUUSDmicro&timeframe=M5&limit=120&include_quote=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60674 - "GET /api/research/observations?symbol=XAUUSDmicro&limit=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60666 - "GET /api/research/audit?symbol=XAUUSDmicro&limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60690 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60656 - "GET /api/prospective?symbol=XAUUSDmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60646 - "GET /api/market/candles?symbol=EURUSDmicro&timeframe=M5&limit=120&include_quote=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60690 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60674 - "GET /api/research/observations?symbol=EURUSDmicro&limit=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60666 - "GET /api/research/audit?symbol=EURUSDmicro&limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60656 - "GET /api/prospective?symbol=EURUSDmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60646 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [23]
+
+Prueba de arranque con 8001 y 8002 ocupados
+Puertos ocupados por la prueba: [8001, 8002]
+URL anunciada por el servidor: http://127.0.0.1:32889/
+HTTP 200 | Panel, JavaScript y CSS en el mismo origen.
+SIMULADA | Gráfico con velas y cotización en la misma solicitud. Tres selectores.
+SIMULADA | Tres ciclos distintos en SQLite y selección de los tres mercados en React.
+SIMULADA | HTTP 200 | SQLite → FastAPI → React
+Ciclo 95ce0631621389e55cd911da Vela UTC 2026-11-20T13:00:00+00:00 Respuesta UTC 2026-11-20T13:00:12+00:00
+El observador FastAPI sigue activo al cerrar el DOM. Último sondeo 2026-11-23T01:45:33.873578+00:00
+SIMULADA ['EURUSDmicro · gemini: WAIT guardado']
+SIMULADA ['USDJPYmicro · gemini: WAIT guardado']
+SIMULADA ['XAUUSDmicro · gemini: WAIT guardado']
+{'cycle_id': '95ce0631621389e55cd911da', 'provider': 'gemini', 'received_utc': '2026-11-20T13:00:12+00:00', 'action': 'WAIT'}
+Terminal MT5: /tmp/simulado_aitrader_6byx4_c5/AppData/Roaming/MetaTrader 5/terminal64.exe
+Puerto 8001 no disponible. Usando el puerto 32889.
+INFO:     Started server process [40]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Panel listo: http://127.0.0.1:32889/
+INFO:     127.0.0.1:48734 - "GET /api/prospective?symbol=EURUSDmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48740 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48734 - "GET /assets/index-OInz49jt.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48740 - "GET /assets/index-WmDusmXg.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48758 - "GET /api/research/observations?symbol=EURUSDmicro&limit=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48752 - "GET /api/research/audit?symbol=EURUSDmicro&limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48734 - "GET /api/prospective/markets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48768 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48746 - "GET /api/prospective?symbol=EURUSDmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48740 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48740 - "GET /api/prospective/markets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48746 - "GET /api/market/candles?symbol=EURUSDmicro&timeframe=M5&limit=120&include_quote=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48746 - "GET /api/research/audit?symbol=USDJPYmicro&limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48752 - "GET /api/research/observations?symbol=USDJPYmicro&limit=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48758 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48734 - "GET /api/market/candles?symbol=USDJPYmicro&timeframe=M5&limit=120&include_quote=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48740 - "GET /api/prospective?symbol=USDJPYmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48746 - "GET /api/research/audit?symbol=XAUUSDmicro&limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48752 - "GET /api/research/observations?symbol=XAUUSDmicro&limit=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48734 - "GET /api/market/candles?symbol=XAUUSDmicro&timeframe=M5&limit=120&include_quote=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48758 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48740 - "GET /api/prospective?symbol=XAUUSDmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48734 - "GET /api/market/candles?symbol=EURUSDmicro&timeframe=M5&limit=120&include_quote=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48758 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48752 - "GET /api/research/observations?symbol=EURUSDmicro&limit=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48746 - "GET /api/research/audit?symbol=EURUSDmicro&limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48740 - "GET /api/prospective?symbol=EURUSDmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48734 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [40]
+
+Prueba de arranque con 8001 ocupado y MT5 IPC_TIMEOUT simulado
+Puertos ocupados por la prueba: [8001]
+URL anunciada por el servidor: http://127.0.0.1:8002/
+HTTP 200 | Panel, JavaScript y CSS en el mismo origen.
+SIMULADA | FastAPI conectado, MT5 IPC_TIMEOUT y gráfico en espera sin peticiones de velas.
+SIMULADA | Tres ciclos distintos en SQLite y selección de los tres mercados en React.
+SIMULADA | HTTP 200 | SQLite → FastAPI → React
+Ciclo 95ce0631621389e55cd911da Vela UTC 2026-11-20T13:00:00+00:00 Respuesta UTC 2026-11-20T13:00:12+00:00
+El observador FastAPI sigue activo al cerrar el DOM. Último sondeo 2026-11-23T01:45:35.197634+00:00
+SIMULADA ['EURUSDmicro · gemini: WAIT guardado']
+SIMULADA ['USDJPYmicro · gemini: WAIT guardado']
+SIMULADA ['XAUUSDmicro · gemini: WAIT guardado']
+{'cycle_id': '95ce0631621389e55cd911da', 'provider': 'gemini', 'received_utc': '2026-11-20T13:00:12+00:00', 'action': 'WAIT'}
+Terminal MT5: /tmp/simulado_aitrader_yo9wcbwa/AppData/Roaming/MetaTrader 5/terminal64.exe
+Puerto 8001 no disponible. Usando el puerto 8002.
+INFO:     Started server process [57]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Panel listo: http://127.0.0.1:8002/
+INFO:     127.0.0.1:60716 - "GET /api/prospective?symbol=EURUSDmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60730 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60716 - "GET /assets/index-OInz49jt.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60730 - "GET /assets/index-WmDusmXg.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60762 - "GET /api/research/audit?symbol=EURUSDmicro&limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60782 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60768 - "GET /api/research/observations?symbol=EURUSDmicro&limit=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60730 - "GET /api/prospective/markets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60716 - "GET /api/prospective/markets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60750 - "GET /api/prospective?symbol=EURUSDmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60742 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60730 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60750 - "GET /api/research/observations?symbol=USDJPYmicro&limit=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60742 - "GET /api/research/audit?symbol=USDJPYmicro&limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60762 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60716 - "GET /api/prospective?symbol=USDJPYmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60750 - "GET /api/research/observations?symbol=XAUUSDmicro&limit=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60742 - "GET /api/research/audit?symbol=XAUUSDmicro&limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60762 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60730 - "GET /api/prospective?symbol=XAUUSDmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60730 - "GET /api/research/audit?symbol=EURUSDmicro&limit=8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60742 - "GET /api/research/observations?symbol=EURUSDmicro&limit=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60798 - "GET /api/prospective?symbol=EURUSDmicro HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60750 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60798 - "GET /api/research/status HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [57]

@@ -1,0 +1,458 @@
+{
+  "protocol": "V1.9.6-FROZEN-1",
+  "seed": 1962026,
+  "symbol": "EURUSD",
+  "model": "gemini-3.1-flash-lite",
+  "session": "02:00-10:00 America/Managua",
+  "evaluation": "V1.9.2 M5 SESSION_CLOSE",
+  "target_new": 89,
+  "selection": "prefer one per non-pilot day; optional second >=5h apart, UTC 15-min grid, shuffled seed; no future OHLC",
+  "scenarios": [
+    {
+      "asof_utc": "2026-10-07T14:45:00+00:00",
+      "context_sha256": "a39eb17194461697b30afb80e7cf5f4d3c828bae8c20c24b45fdc16a3ab08920",
+      "local_time": "2026-10-07T08:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-17T13:30:00+00:00",
+      "context_sha256": "dce06f9e96d5a29274dfabbc0470b448751fd759e77b25f3654371c99725a7fb",
+      "local_time": "2026-09-17T07:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-22T09:15:00+00:00",
+      "context_sha256": "261d50fb72de38c581ee8e84a0c93ac44ddb38a978ed0526553632eedb3d1a5c",
+      "local_time": "2026-09-22T03:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-21T10:00:00+00:00",
+      "context_sha256": "6fdb0a4e752cfaf4d33f2bc9418ef67d41488734bb704f79c449e01d32c1f6e4",
+      "local_time": "2026-10-21T04:00:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-27T09:45:00+00:00",
+      "context_sha256": "787c433203e750ee3813e1c94cdbdb395dbe364594b3d5bcf549175e67a1e77b",
+      "local_time": "2026-10-27T03:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-14T09:15:00+00:00",
+      "context_sha256": "0fad53191a5442c3bbb0231c4cf844842cd13b2ae664adc5d0c623bb9d0dc51f",
+      "local_time": "2026-09-14T03:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-03T09:15:00+00:00",
+      "context_sha256": "0f97f7cc9f03e23fd206e22262b732273a90d4b42fff93312acfa5e26786ae47",
+      "local_time": "2026-09-03T03:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-25T12:15:00+00:00",
+      "context_sha256": "0a85a052bebdbf6b48de78f29498e2cf5fb17fd0f85551405f4d068bc51c2d8d",
+      "local_time": "2026-09-25T06:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-11-17T11:45:00+00:00",
+      "context_sha256": "3814ac7082303397f260984c254ab929d4dd08468f563b4bf3a1a2ca33f9b057",
+      "local_time": "2026-11-17T05:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-16T13:45:00+00:00",
+      "context_sha256": "b71adaabf3853b82706d0f6dc00557aa7e4e2178357d7e788ec6ee1d4fdc6de6",
+      "local_time": "2026-10-16T07:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-26T09:45:00+00:00",
+      "context_sha256": "a8f4d8a855856b047447e85f1880ca3481db43285441b117f8d4b7efce31701b",
+      "local_time": "2026-08-26T03:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-24T08:00:00+00:00",
+      "context_sha256": "0962f580bc88d3902c1b919740fb59569c07c4444e0db4d4da0bebc3b0fea038",
+      "local_time": "2026-08-24T02:00:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-29T10:15:00+00:00",
+      "context_sha256": "204b17a2b8e49f3c2b65ff2f589ca9024d5de4b15e4bd92171dc64e95dbef15e",
+      "local_time": "2026-10-29T04:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-08T15:15:00+00:00",
+      "context_sha256": "73dcafb2aee95ee8700fb36e81e6854fc2da256ae219dcb34e79f0ccb87db82c",
+      "local_time": "2026-09-08T09:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-08T08:00:00+00:00",
+      "context_sha256": "a9e5bff607b3d6104ae0ed89883026b3876b4a33c1483e1754aa604791a0a9bd",
+      "local_time": "2026-10-08T02:00:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-29T15:45:00+00:00",
+      "context_sha256": "010ebe5696e6a5958ed60ab2cd8ad92e6fffee9219307b928bf1243cec0c0528",
+      "local_time": "2026-09-29T09:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-11-03T14:30:00+00:00",
+      "context_sha256": "cd0ec764d7cb6e29427e2895c8d8ba9c5c899c322bfe5621a4677b3cc86917e8",
+      "local_time": "2026-11-03T08:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-19T11:00:00+00:00",
+      "context_sha256": "7d8d6494132449a2904a13d16948abbbf27cb45cfe72085c5607903417c05211",
+      "local_time": "2026-10-19T05:00:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-17T09:30:00+00:00",
+      "context_sha256": "38a5edadc996f36df4a400d13ddb729f8654483941225d0ae977a7525cba9849",
+      "local_time": "2026-08-17T03:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-23T14:45:00+00:00",
+      "context_sha256": "54a35352e0c9f5ed00e11b67f4e11dea2fb49730c76932e8bed18bf19e32b7c3",
+      "local_time": "2026-09-23T08:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-14T12:15:00+00:00",
+      "context_sha256": "70e6ebacbe55f4ac5ef8bf387e447c5f233d967da7e1c25bccedb341ce4c1a23",
+      "local_time": "2026-10-14T06:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-11-11T15:00:00+00:00",
+      "context_sha256": "d116fa4ac6e5aa6c8a1c6bfef48a64850b3c84435b5dde3895821ef5b403c4c9",
+      "local_time": "2026-11-11T09:00:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-21T13:15:00+00:00",
+      "context_sha256": "55c8874bb6d698d4d934c49337d4127ae9ab59bf8a1339ff5eeff93b5f44c2ad",
+      "local_time": "2026-08-21T07:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-20T09:15:00+00:00",
+      "context_sha256": "455cbdcc6cc4aea3025360e652be74df38b4c659ba9cc1f330c7348ae96d581f",
+      "local_time": "2026-08-20T03:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-09T09:45:00+00:00",
+      "context_sha256": "b19f3f8e39912a08b9e8bf2b9d633d57ffc81cb6d618acc8ac55b3ccddb8d3d1",
+      "local_time": "2026-09-09T03:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-11-10T13:15:00+00:00",
+      "context_sha256": "822175f4ab053c834bfd938046b6594e460c17e4e458390b12c703f90559f99e",
+      "local_time": "2026-11-10T07:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-11-04T11:30:00+00:00",
+      "context_sha256": "135cd471656abe7cf29de50c2879774128611d099412c37cd8fff7a0756bf5d1",
+      "local_time": "2026-11-04T05:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-11-12T11:30:00+00:00",
+      "context_sha256": "15c5161039d2ebfd9f3054a9019cae9b81ddaa663792775790aac43af5f19acf",
+      "local_time": "2026-11-12T05:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-01T13:45:00+00:00",
+      "context_sha256": "d94e451fbbc87466a83bc65a385ac530bf92b5be7ed23c2fa03b87ac0d326981",
+      "local_time": "2026-09-01T07:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-04T08:45:00+00:00",
+      "context_sha256": "097c71270ba04cb56696a18cba7575db28c5c0b98c6791c8b3378b054296fb6c",
+      "local_time": "2026-09-04T02:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-21T09:00:00+00:00",
+      "context_sha256": "01b8254ef6a08005539d8d257e58cce03e82e882616f6d518cd1105b478ebe9a",
+      "local_time": "2026-09-21T03:00:00-06:00"
+    },
+    {
+      "asof_utc": "2026-11-13T13:15:00+00:00",
+      "context_sha256": "417f2b86265c30de8a784558d65690999301f4867ba80089d44f1b61d49f4d7c",
+      "local_time": "2026-11-13T07:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-11-06T15:30:00+00:00",
+      "context_sha256": "7e80d8b670b6907a3d9f25488e960228eb8ab02d7986796d236457d37253f03f",
+      "local_time": "2026-11-06T09:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-11-02T10:00:00+00:00",
+      "context_sha256": "9922c0e89ecf3150737da4dfe99b3a116fbf6e299385159eb815d9b96025ea2a",
+      "local_time": "2026-11-02T04:00:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-25T12:00:00+00:00",
+      "context_sha256": "08092721a7a05555c7fe60e563eb860f61ffd939c9ae08fb5e9651dddf1b3657",
+      "local_time": "2026-08-25T06:00:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-28T12:30:00+00:00",
+      "context_sha256": "7d03431f28f9951f70bb29258459ca0f4fe30c5f063f5f4d8033a80c742f68c7",
+      "local_time": "2026-10-28T06:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-13T08:45:00+00:00",
+      "context_sha256": "55c4460d3f63746337d92551e426d7a143ba3a2645d8399849a44e33da6feadf",
+      "local_time": "2026-10-13T02:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-10T15:15:00+00:00",
+      "context_sha256": "134ce11f9738f732bdc0d209618336d7fec85b1e953551b127ca28901255a685",
+      "local_time": "2026-09-10T09:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-18T15:30:00+00:00",
+      "context_sha256": "86414983318138d7dfcdaebf97e2768c64ab7974d930b2f6eeb1d21b62927c53",
+      "local_time": "2026-09-18T09:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-20T15:45:00+00:00",
+      "context_sha256": "35ef43d99394349dd01ecbb43b7bae7ac1d9df75fb90e5b057a879271a674748",
+      "local_time": "2026-10-20T09:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-02T13:45:00+00:00",
+      "context_sha256": "f43c2abeafd8cb2bc11068199360fc73228870dbd0a773bd94fcc70b4b3c7373",
+      "local_time": "2026-09-02T07:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-19T15:00:00+00:00",
+      "context_sha256": "44872f61bcf5d68caf204d19ecb6de4d241bc36440dd0bd6b8309244877ffcc8",
+      "local_time": "2026-08-19T09:00:00-06:00"
+    },
+    {
+      "asof_utc": "2026-11-16T14:15:00+00:00",
+      "context_sha256": "9fe6045d953ee5eb2e637da88dbb98ae6bc68e4c3b0ee030c3ab636adb347330",
+      "local_time": "2026-11-16T08:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-22T14:00:00+00:00",
+      "context_sha256": "836963fcf6c411cb9912e5d542584dfc5f6af2a069e13a5ba16a17e2606c8f63",
+      "local_time": "2026-10-22T08:00:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-28T13:30:00+00:00",
+      "context_sha256": "bb21f4c53bbb3f8db167e41eaf58690e53cd6d0519199e27d9c963aed6c1a8ea",
+      "local_time": "2026-08-28T07:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-24T08:45:00+00:00",
+      "context_sha256": "cb0e97d39ed6ca59c6c5183894f181a5f7106f93604cbf8b1bb26e4a401bf15d",
+      "local_time": "2026-09-24T02:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-16T13:15:00+00:00",
+      "context_sha256": "69e9d837c64a137b1853237296f425ac5416cc4a13447ac7863dbab93368aff0",
+      "local_time": "2026-09-16T07:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-11T14:15:00+00:00",
+      "context_sha256": "fe6d56395937c6f3c4a504b36a66c3fdda28940effcc0e405564d04ae33820c8",
+      "local_time": "2026-09-11T08:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-31T13:30:00+00:00",
+      "context_sha256": "2548c8cc44a141dd5938917378a9a58ed049347ad85b1d1b49762d8600fcc65e",
+      "local_time": "2026-08-31T07:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-01T11:00:00+00:00",
+      "context_sha256": "c9ef01b867650adab8ab2e2febe20a7bd91ff1f45ca3b874f9b2f4888a29a8d8",
+      "local_time": "2026-10-01T05:00:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-06T08:15:00+00:00",
+      "context_sha256": "57e54923984d7f62009c280dd6350ffea95ad253d64da52079a9793b1d1de30a",
+      "local_time": "2026-08-06T02:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-18T13:45:00+00:00",
+      "context_sha256": "ffaf812b68ab91bef82507efca2c633a9df097798a937dca8dc03e86561e1fb1",
+      "local_time": "2026-08-18T07:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-10T10:45:00+00:00",
+      "context_sha256": "4208fc7eda45bd7e612608e045ff945c1c4d7c9b20f057b928c18c37353c01cc",
+      "local_time": "2026-08-10T04:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-14T12:00:00+00:00",
+      "context_sha256": "c2162937feadc1cf2bb08f78c169e264dc399b19afa53b3a7b703ec7e679e933",
+      "local_time": "2026-08-14T06:00:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-26T12:15:00+00:00",
+      "context_sha256": "56eca46f8d57144195839ed8145ce51e804dde013813e045ba937fad5b3085f1",
+      "local_time": "2026-10-26T06:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-30T08:45:00+00:00",
+      "context_sha256": "c256fa81957c7534e7996d74d50357677c9626c10965a9d1b3eeb178d4c7e98f",
+      "local_time": "2026-09-30T02:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-06T08:45:00+00:00",
+      "context_sha256": "29c4c96d7bfe195c364f92cfafbc6dbe51351a8406486087e0593cc1215ab9ea",
+      "local_time": "2026-10-06T02:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-05T15:45:00+00:00",
+      "context_sha256": "a55665c08b5b224101ee32ee8f9d9b0a164b48e5f186600f1e3a8e517fab1dff",
+      "local_time": "2026-10-05T09:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-05T08:45:00+00:00",
+      "context_sha256": "60cbcbfcd22533aecaf855999fd5e8b7a51a79947dcf9c686fb0cfce20e9059c",
+      "local_time": "2026-08-05T02:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-02T08:45:00+00:00",
+      "context_sha256": "3bb7728e38cc262257921030858805c926209787cbbd1368b927aeee5d6793f4",
+      "local_time": "2026-10-02T02:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-30T11:30:00+00:00",
+      "context_sha256": "6c74973de3b0fbaf07f231951c4e3881d4822ce4b5884c239d6bad3ee2015d25",
+      "local_time": "2026-10-30T05:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-23T15:45:00+00:00",
+      "context_sha256": "43a57639d832a9d5c8dccd3526b08d17f850a735596d2d9b7482b0d9233918a0",
+      "local_time": "2026-10-23T09:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-07T09:15:00+00:00",
+      "context_sha256": "dc5eb0cd7512e3f6037358a27607d36272572d18eb8e1a4a6bd28029ece1df05",
+      "local_time": "2026-08-07T03:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-12T11:30:00+00:00",
+      "context_sha256": "941a4652ad8952d379477abfdc1050ddc4697f509b1232e73a5576339292d10e",
+      "local_time": "2026-08-12T05:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-27T15:45:00+00:00",
+      "context_sha256": "eeac80170c3febdb408540239296bd0684a50131a040274499df15c41ba52507",
+      "local_time": "2026-08-27T09:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-09T08:45:00+00:00",
+      "context_sha256": "40d8a4a8d5da2a221fc7aab694958b11f5c5e2347be81edfe8e5c1238e8419be",
+      "local_time": "2026-10-09T02:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-07T08:30:00+00:00",
+      "context_sha256": "18c4dccbff27291785248069c015edededd96783bdc978bca4fb738bb15e076d",
+      "local_time": "2026-10-07T02:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-17T08:30:00+00:00",
+      "context_sha256": "95a26a78e424b68dd02e199f40ec50535e9a6baf93fa28c7908524a3875ec461",
+      "local_time": "2026-09-17T02:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-22T14:30:00+00:00",
+      "context_sha256": "9691caba2666488d3a349dbf05ed78e4b791b578d5029a744daa2613b35dbece",
+      "local_time": "2026-09-22T08:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-21T15:30:00+00:00",
+      "context_sha256": "85e39135420d45bc1e4b9f40c23feea6195e49c56d10f50615e5b86dc329b183",
+      "local_time": "2026-10-21T09:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-27T15:30:00+00:00",
+      "context_sha256": "47096387634888cb89806c4bd87df9a4310f332b2db06d112493e32bdfd8a595",
+      "local_time": "2026-10-27T09:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-14T14:30:00+00:00",
+      "context_sha256": "1764ecc049de84e755bb360737368144db18a5422d8a92f9ee3e09d6fe744108",
+      "local_time": "2026-09-14T08:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-03T15:45:00+00:00",
+      "context_sha256": "c8eeb77316d489d62d93f3b496d2082edefaccac0e5fc735e165bb3064d773b3",
+      "local_time": "2026-09-03T09:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-16T08:15:00+00:00",
+      "context_sha256": "41b7b5dfc47247106c0e0124b00131ed076e9471abe31c96a48874cbceecb45a",
+      "local_time": "2026-10-16T02:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-26T15:00:00+00:00",
+      "context_sha256": "729ad1bd726f664e942ba030ace37844f8211a228ecea7740b7588bd4c6673cf",
+      "local_time": "2026-08-26T09:00:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-24T14:45:00+00:00",
+      "context_sha256": "48775056df0b6512bc65ce35597b5d5690cf422907310d2b8e206aca7e8da04d",
+      "local_time": "2026-08-24T08:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-29T15:15:00+00:00",
+      "context_sha256": "527faa895b5fda5dc272e9eaab4dc36d4c7936099e77c619cbadc52d560478c2",
+      "local_time": "2026-10-29T09:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-08T09:45:00+00:00",
+      "context_sha256": "6a3c31e50c2caf795efe1a6f06819c0d0d34976f82ec440311cfe225ac0678fb",
+      "local_time": "2026-09-08T03:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-10-08T15:45:00+00:00",
+      "context_sha256": "b2ffdf9a4b3a044e4a55e3529e41334fb252723197b928080aa07088baf0619a",
+      "local_time": "2026-10-08T09:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-29T09:30:00+00:00",
+      "context_sha256": "d1ee4eec3642e5687420dd5f0007e0b25c87f76fb001842b4f4af37c61a8153e",
+      "local_time": "2026-09-29T03:30:00-06:00"
+    },
+    {
+      "asof_utc": "2026-11-03T09:00:00+00:00",
+      "context_sha256": "b6eda2bed62ad0e9c1989fcd5c5aacc3058c4c18e911f4b83221217afa7ebdc5",
+      "local_time": "2026-11-03T03:00:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-17T14:45:00+00:00",
+      "context_sha256": "3fbc5be83a170a4575442b852d5c9e6acae91ea29c2d7b680590d2f159924114",
+      "local_time": "2026-08-17T08:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-23T08:15:00+00:00",
+      "context_sha256": "5d6eaa16a246098441b01b5117f5e2a1004d066bde2c86877030d002e39d75dd",
+      "local_time": "2026-09-23T02:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-11-11T09:00:00+00:00",
+      "context_sha256": "ceb401721279a0615dd1a8889f0596e8eb3bad21b2f7df64c5d19efa50551e48",
+      "local_time": "2026-11-11T03:00:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-21T08:15:00+00:00",
+      "context_sha256": "1656f743cfdb20adf1f20e6d0a60cb5387595ff47e15be0ba794a7e4437f56c0",
+      "local_time": "2026-08-21T02:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-08-20T15:15:00+00:00",
+      "context_sha256": "905844f31844a43dd5a7a79872f82d3c06068f2bb404e26a84903ae31a3b88a6",
+      "local_time": "2026-08-20T09:15:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-09T15:45:00+00:00",
+      "context_sha256": "da06d51967126d0c41a1286edb4f8f0b52132d5aefe6efc3fc6e3c2cbefcf1b0",
+      "local_time": "2026-09-09T09:45:00-06:00"
+    },
+    {
+      "asof_utc": "2026-11-10T08:00:00+00:00",
+      "context_sha256": "258a23a2c32d500a93a5269afded7a4e8610979aae48ea851846e58a6a4721a8",
+      "local_time": "2026-11-10T02:00:00-06:00"
+    },
+    {
+      "asof_utc": "2026-09-01T08:30:00+00:00",
+      "context_sha256": "1e3ef81b39d8cfceeb7c40bc591db9df5f4d201852250cea44d83fc2680ec095",
+      "local_time": "2026-09-01T02:30:00-06:00"
+    }
+  ],
+  "manifest_sha256": "b6d65d9ef812ce4a2a810a8967a29c32c7d66570d0c5f33a1e21314d1cb18393"
+}

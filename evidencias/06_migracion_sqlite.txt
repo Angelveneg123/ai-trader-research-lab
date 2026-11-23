@@ -1,0 +1,5 @@
+$ python evidencias/verificar_migracion.py
+Conteos preservados {'prospective_cycles': 0, 'prospective_decisions': 0, 'prospective_errors': 0, 'sqlite_sequence': 0, 'provider_budget': 2, 'prospective_attempts': 0, 'prospective_outcomes': 0, 'prospective_demo_entries': 0, 'prospective_demo_days': 0, 'prospective_demo_positions': 0, 'prospective_demo_events': 0, 'prospective_demo_deals': 0, 'prospective_demo_status': 0, 'prospective_reports': 0, 'diagnostic_calls': 2}
+Diario actualizado en copia con presupuesto acumulado {'gemini': {'limit': 2.5, 'attempts': 1, 'spent': 0.00105775, 'reserved': 0.0, 'remaining': 2.49894225}, 'openai': {'limit': 2.5, 'attempts': 1, 'spent': 0.0, 'reserved': 0.0031748, 'remaining': 2.4968252}}
+SHA256 original intacto 974a2530d3a961efffcaabd2272b3cbb42cd3c3f489cf0f06d859d0c23356cc5
+Código de salida: 0

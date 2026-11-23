@@ -1,0 +1,8 @@
+Diagnóstico de configuración: .env ausente, código 0.
+Motor restaurado: --status código 0, 0 ciclos y 0 decisiones prospectivas.
+Presupuesto cargado del diario: USD 2,50 por proveedor.
+Arranque desde el ZIP extraído, con 8001 ocupado: http://127.0.0.1:8002/
+HTTP 200 para el panel, JavaScript, dashboard, ciclos y tres mercados.
+API del dashboard: 100 decisiones históricas recuperadas.
+API prospectiva: tres símbolos micro disponibles y diario sin ciclos previos.
+MT5 en Linux: MT5_MODULE_UNAVAILABLE, estado presentado por FastAPI.

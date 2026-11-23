@@ -1,0 +1,65 @@
+{
+  "decisions": 11,
+  "trade_signals": 6,
+  "evaluable_trades": 6,
+  "unique_days": 11,
+  "hours_local": {
+    "2": 2,
+    "3": 2,
+    "4": 1,
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": 1,
+    "9": 2
+  },
+  "outcomes": {
+    "WAIT": 5,
+    "WIN": 4,
+    "SESSION_CLOSE": 2
+  },
+  "gross_pips_reference": 50.9,
+  "sensitivity": [
+    {
+      "cost_pips_per_trade": 0.5,
+      "gross_pips": 50.9,
+      "net_pips_hypothetical": 47.9,
+      "trades": 6
+    },
+    {
+      "cost_pips_per_trade": 1.0,
+      "gross_pips": 50.9,
+      "net_pips_hypothetical": 44.9,
+      "trades": 6
+    },
+    {
+      "cost_pips_per_trade": 1.5,
+      "gross_pips": 50.9,
+      "net_pips_hypothetical": 41.9,
+      "trades": 6
+    },
+    {
+      "cost_pips_per_trade": 2.0,
+      "gross_pips": 50.9,
+      "net_pips_hypothetical": 38.9,
+      "trades": 6
+    }
+  ],
+  "random_baseline": {
+    "method": "Aleatorizar BUY/SELL en las mismas entradas, con distancias SL/TP de cada señal; no simula WAIT ni política de selección",
+    "seed": 195,
+    "requested_simulations": 1000,
+    "valid_simulations": 1000,
+    "invalid_simulations": 0,
+    "mean_gross_pips": 15.72,
+    "fraction_at_least_actual": 0.045
+  },
+  "issues": [],
+  "limitations": [
+    "No puede verificarse ausencia de sesgo de selección solo con decisiones guardadas: requiere registrar universo de candidatos y reglas congeladas.",
+    "Referencia aleatoria condicionada a las entradas seleccionadas por Gemini; no es un benchmark independiente de extremo a extremo.",
+    "El precio de entrada es cierre OHLC de referencia, no fill bid/ask; costos fijos son escenarios hipotéticos.",
+    "La muestra piloto fue observada previamente; no es validación fuera de muestra.",
+    "No se ejecutan operaciones ni llamadas API."
+  ]
+}

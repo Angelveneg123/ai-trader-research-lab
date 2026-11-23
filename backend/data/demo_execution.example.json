@@ -1,0 +1,23 @@
+{
+  "EURUSDmicro": {
+    "commission_usd_per_lot_roundtrip": null,
+    "max_spread_points": null,
+    "slippage_buffer_points_per_side": null,
+    "commission_verified": false,
+    "commission_source": ""
+  },
+  "USDJPYmicro": {
+    "commission_usd_per_lot_roundtrip": null,
+    "max_spread_points": null,
+    "slippage_buffer_points_per_side": null,
+    "commission_verified": false,
+    "commission_source": ""
+  },
+  "XAUUSDmicro": {
+    "commission_usd_per_lot_roundtrip": null,
+    "max_spread_points": null,
+    "slippage_buffer_points_per_side": null,
+    "commission_verified": false,
+    "commission_source": ""
+  }
+}

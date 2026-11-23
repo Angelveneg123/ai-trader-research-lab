@@ -1,0 +1,69 @@
+Entrada analizada: ai-trader-research-lab (2)(6).zip
+SHA256 de entrada: 110024460684cf45a75a8e5b8659a6954632baea7654f5567ac00932c0d662fe
+Validación ZIP: OK, 12833 entradas totales.
+Restauración del motor: 146 bytes ajenos en el inicio. Código recuperado idéntico a RC1.
+SHA256 del motor restaurado: b8863362813874840d14dc0aee0cd28dc047756cf8b0aacd6c6274a1ba3d2b85
+
+Diario WAL vacío en ZIP: ai-trader-research-lab/backend/data/prospective_v22.sqlite3-wal
+
+backend/data/prospective_v22.sqlite3
+  Coincidencia byte a byte con la entrada: sí
+  integrity_check: ok
+  SHA256: 33621dd57b67cc57aef166cdda3ed788ab0fbb4998ee1862d1eb80b18428accf
+  demo_management: 0
+  demo_metrics: 0
+  diagnostic_calls: 2
+  entry_control: 0
+  entry_control_audit: 0
+  prospective_attempts: 0
+  prospective_cycles: 0
+  prospective_decisions: 0
+  prospective_demo_days: 0
+  prospective_demo_deals: 0
+  prospective_demo_entries: 0
+  prospective_demo_events: 0
+  prospective_demo_positions: 0
+  prospective_demo_status: 0
+  prospective_errors: 0
+  prospective_outcomes: 0
+  prospective_reports: 0
+  provider_budget: 2
+  runtime_status: 1
+
+backend/data/prospective_v22_respaldo_20261120_202728.sqlite3
+  Coincidencia byte a byte con la entrada: sí
+  integrity_check: ok
+  SHA256: 38d92b126eb871e64873861e6f295bd81535a3f13cbd2be0e1e3d1e36cdb1e50
+  diagnostic_calls: 3
+  prospective_attempts: 0
+  prospective_cycles: 0
+  prospective_decisions: 0
+  prospective_demo_days: 0
+  prospective_demo_deals: 0
+  prospective_demo_entries: 0
+  prospective_demo_events: 0
+  prospective_demo_positions: 0
+  prospective_demo_status: 0
+  prospective_errors: 0
+  prospective_outcomes: 0
+  prospective_reports: 0
+  provider_budget: 2
+
+data/ai_decisions.sqlite3
+  Coincidencia byte a byte con la entrada: sí
+  integrity_check: ok
+  SHA256: 5b6e86b92cbba3f08de6041d16282a7869f5eb48fac228d7c5cd52372c98a3bc
+  ai_historical_decisions: 100
+  ai_historical_evaluations: 1
+  ai_session_evaluations_v192: 100
+
+data/historical.sqlite3
+  Coincidencia byte a byte con la entrada: sí
+  integrity_check: ok
+  SHA256: b3e1b447abfd56e65284044e25a2eb5c0a815d9199ce211fb8901c1b4d4fa88c
+  historical_candles: 94134
+  import_runs: 1
+  import_segments: 207
+  rejected_candles: 0
+
+Base de observaciones deterministas (data/research.sqlite3): ausente en la entrada.

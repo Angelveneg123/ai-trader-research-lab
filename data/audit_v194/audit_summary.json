@@ -1,0 +1,40 @@
+{
+  "decisions": 11,
+  "directions": {
+    "WAIT": 5,
+    "BUY": 2,
+    "SELL": 4
+  },
+  "outcomes": {
+    "WAIT": 5,
+    "WIN": 4,
+    "SESSION_CLOSE": 2
+  },
+  "gross_pips_sum_reference": 50.9,
+  "net_pips_sum_hypothetical": 44.9,
+  "hypothetical_cost_per_trade_pips": 1.0,
+  "evaluated_trades_with_pips": 6,
+  "v192_mismatches": 0,
+  "flagged_records": 0,
+  "by_confidence": {
+    "50-69%": {
+      "WAIT": 5,
+      "WIN": 1,
+      "SESSION_CLOSE": 1
+    },
+    "70-84%": {
+      "WIN": 2,
+      "SESSION_CLOSE": 1
+    },
+    "85-100%": {
+      "WIN": 1
+    }
+  },
+  "limitations": [
+    "Precios de entrada/salida son referencias OHLC, no bid/ask ni fills reales",
+    "El costo fijo es hipotético y no incluye deslizamiento variable",
+    "El orden intrabar es desconocido; coincidencia SL/TP se marca INDETERMINATE",
+    "Una muestra de 11 no prueba ventaja estadística",
+    "No se modifica ninguna base de datos ni se llama a Gemini"
+  ]
+}

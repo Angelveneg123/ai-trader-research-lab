@@ -1,0 +1,28 @@
+{
+  "tipo": "SIMULADA",
+  "http": 200,
+  "row": {
+    "cycle_id": "95ce0631621389e55cd911da",
+    "symbol": "EURUSDmicro",
+    "m5_closed_utc": "2026-11-20T13:00:00+00:00",
+    "spread_pips": 0.8000000000008001,
+    "provider": "gemini",
+    "request_status": "saved",
+    "started_utc": "2026-11-20T13:00:12+00:00",
+    "cost_usd_est": 0.000192,
+    "model": "gemini-3.1-flash-lite",
+    "received_utc": "2026-11-20T13:00:12+00:00",
+    "action": "WAIT",
+    "reason": "Fixture de interfaz y SQLite",
+    "sl": null,
+    "tp": null,
+    "risk_note": "WAIT",
+    "outcome": null,
+    "tokens": "[552,36]",
+    "latency_ms": 0,
+    "net_pips": null,
+    "cost_pips": null,
+    "outcome_detail": null,
+    "error": null
+  }
+}

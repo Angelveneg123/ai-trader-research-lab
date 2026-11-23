@@ -1,0 +1,38 @@
+AI Trader Research Lab V2.4 - PARCHE SOBRE V2.3
+
+Archivos:
+ backend/app/demo_execution.py       corrección del riesgo BUY/SELL
+ backend/app/news_calendar_sync.py    adaptador de calendario económico Finnhub
+ backend/prospectivo_v22.py          actualización periódica de noticias (si hay API key)
+ backend/tests/test_v24.py           6 pruebas unitarias sin órdenes ni llamadas API
+
+INSTALACIÓN: detener el bot, hacer copia de seguridad de los archivos actuales,
+reemplazar los archivos de este parche en backend/ respetando las rutas.
+NO BORRAR backend/data/ ni la base prospective_v22.sqlite3.
+
+PRUEBAS (PowerShell desde backend):
+ .\.venv\Scripts\python.exe -m compileall -q .\app .\prospectivo_v22.py
+ .\.venv\Scripts\python.exe -m unittest discover -s tests -p test_v24.py -v
+ .\.venv\Scripts\python.exe .\prospectivo_v22.py --status
+
+OBSERVACIÓN SIN ÓRDENES (dentro de la sesión 02:00-10:00 Nicaragua):
+ .\.venv\Scripts\python.exe .\prospectivo_v22.py --symbols EURUSDmicro --providers gemini --loop
+ Esta ejecución puede consumir créditos de Gemini; no usar --demo.
+
+CALENDARIO: el adaptador consulta la API económica de Finnhub y necesita
+una clave FINNHUB_API_KEY, con acceso al endpoint economicCalendar.
+ En PowerShell: $env:FINNHUB_API_KEY = 'TU_CLAVE'
+ El runner intenta refrescar el calendario cada 30 minutos; también podés probar:
+ .\.venv\Scripts\python.exe -m app.news_calendar_sync --output .\data\news_calendar.json
+ ATENCIÓN: el adaptador exige fechas ISO con zona horaria, impacto 1/2/3 y
+países US/EU/EA/EMU; si el proveedor cambia el esquema, rechaza la respuesta.
+ Una respuesta HTTP exitosa NO demuestra cobertura exhaustiva de noticias.
+ Para órdenes demo, el ejecutor exige cobertura +/-20 min y actualización <=60 min.
+ La fuente externa NO se ha validado en vivo en este entorno.
+
+BLOQUEOS PENDIENTES: comisión real EURUSDmicro no verificada, calendario
+no validado con datos reales, pruebas de integración MT5 aún pendientes.
+No configurar comisión=0 por conveniencia ni activar --demo --loop.
+
+LIMITACIÓN: el buffer de deslizamiento es una estimación conservadora,
+NO una garantía de pérdida máxima en mercados con gaps o ejecuciones extremas.

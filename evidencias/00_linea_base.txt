@@ -1,0 +1,60 @@
+Entorno: Linux, Python 3.12, sin terminal MT5 ni credenciales.
+$ python -m compileall -q backend tests
+Salida compileall: 0
+$ python -m unittest discover -s backend/tests -v
+test_buy_and_sell_adverse_buffer (test_v24.Tests.test_buy_and_sell_adverse_buffer) ... ok
+test_calendar_blocks_expired_and_high_impact (test_v24.Tests.test_calendar_blocks_expired_and_high_impact) ... ok
+test_commission_is_counted (test_v24.Tests.test_commission_is_counted) ... ok
+test_news_rejects_naive_time (test_v24.Tests.test_news_rejects_naive_time) ... ok
+test_no_events_does_not_replace_existing_file (test_v24.Tests.test_no_events_does_not_replace_existing_file) ... ok
+test_oversized_minimum_is_rejected_by_cap (test_v24.Tests.test_oversized_minimum_is_rejected_by_cap) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+OK
+Salida unittest: 0
+$ sha256sum ZIP de entrada
+ee48dba5ff2c5e0a4352070101d66181f21fcda520c0f2e2abc4a737e10726d1
+backend/data/prospective_v22.sqlite3 SHA256 974a2530d3a961efffcaabd2272b3cbb42cd3c3f489cf0f06d859d0c23356cc5
+PRAGMA integrity_check: ok
+prospective_cycles 0
+prospective_decisions 0
+prospective_errors 0
+sqlite_sequence 0
+provider_budget 2
+prospective_attempts 0
+prospective_outcomes 0
+prospective_demo_entries 0
+prospective_demo_days 0
+prospective_demo_positions 0
+prospective_demo_events 0
+prospective_demo_deals 0
+prospective_demo_status 0
+prospective_reports 0
+diagnostic_calls 2
+data/ai_decisions.sqlite3 SHA256 5b6e86b92cbba3f08de6041d16282a7869f5eb48fac228d7c5cd52372c98a3bc
+PRAGMA integrity_check: ok
+ai_historical_decisions 100
+ai_historical_evaluations 1
+ai_session_evaluations_v192 100
+data/historical.sqlite3 SHA256 b3e1b447abfd56e65284044e25a2eb5c0a815d9199ce211fb8901c1b4d4fa88c
+PRAGMA integrity_check: ok
+historical_candles 94134
+import_runs 1
+import_segments 207
+rejected_candles 0
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> ai-trader-dashboard@1.3.0 build
+> tsc -b && vite build
+
+vite v6.4.6 building for production...
+transforming...
+✓ 1579 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.37 kB │ gzip:  0.27 kB
+dist/assets/index-DtAsejF-.css   10.66 kB │ gzip:  3.24 kB
+dist/assets/index-BqYfQohn.js   263.31 kB │ gzip: 80.75 kB
+✓ built in 1.61s

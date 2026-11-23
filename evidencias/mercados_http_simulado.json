@@ -1,0 +1,54 @@
+{
+  "tipo": "SIMULADA",
+  "http": 200,
+  "markets": [
+    {
+      "label": "EUR/USD",
+      "symbol": "EURUSDmicro",
+      "latest": {
+        "cycle_id": "95ce0631621389e55cd911da",
+        "m5_closed_utc": "2026-11-20T13:00:00+00:00",
+        "spread_pips": 0.8000000000008001,
+        "action": "WAIT",
+        "reason": "Fixture de interfaz y SQLite",
+        "received_utc": "2026-11-20T13:00:12+00:00",
+        "model": "gemini-3.1-flash-lite",
+        "request_status": "saved",
+        "cost_usd_est": 0.000192,
+        "error": null
+      }
+    },
+    {
+      "label": "USD/JPY",
+      "symbol": "USDJPYmicro",
+      "latest": {
+        "cycle_id": "7ae69340220d35d41c8c82e9",
+        "m5_closed_utc": "2026-11-20T13:00:00+00:00",
+        "spread_pips": 0.8000000000008001,
+        "action": "WAIT",
+        "reason": "Fixture de interfaz y SQLite",
+        "received_utc": "2026-11-20T13:00:12+00:00",
+        "model": "gemini-3.1-flash-lite",
+        "request_status": "saved",
+        "cost_usd_est": 0.000192,
+        "error": null
+      }
+    },
+    {
+      "label": "XAU/USD",
+      "symbol": "XAUUSDmicro",
+      "latest": {
+        "cycle_id": "3f4f8dc87105de344abe7d00",
+        "m5_closed_utc": "2026-11-20T13:00:00+00:00",
+        "spread_pips": 0.8000000000008001,
+        "action": "WAIT",
+        "reason": "Fixture de interfaz y SQLite",
+        "received_utc": "2026-11-20T13:00:12+00:00",
+        "model": "gemini-3.1-flash-lite",
+        "request_status": "saved",
+        "cost_usd_est": 0.000192,
+        "error": null
+      }
+    }
+  ]
+}

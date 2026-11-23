@@ -1,0 +1,2 @@
+$ python -m compileall -q backend tests evidencias
+Código de salida: 0

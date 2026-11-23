@@ -1,0 +1,7 @@
+$ python evidencias/ejecutar_evidencia_ui.py
+$ node evidencias/comprobar_dom.cjs
+SIMULADA | 3 tarjetas con 3 ciclos SQLite distintos | Selector de mercado verificado.
+SIMULADA | HTTP 200 | SQLite → FastAPI → React
+Ciclo 95ce0631621389e55cd911da Vela UTC 2026-11-20T13:00:00+00:00 Respuesta UTC 2026-11-20T13:00:12+00:00
+El observador FastAPI sigue activo al cerrar el DOM. Último sondeo 2026-11-23T00:56:47.026174+00:00
+Código de salida: 0

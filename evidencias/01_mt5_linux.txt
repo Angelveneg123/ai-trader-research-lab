@@ -1,0 +1,20 @@
+{
+  "modo": "solo_lectura",
+  "plataforma": "Linux",
+  "python": "3.12.14",
+  "hora_utc": "2026-11-22T22:32:03.904379+00:00",
+  "instalaciones_detectadas": 0,
+  "mt5": {
+    "connected": false,
+    "demo": false,
+    "currency": null,
+    "server": null,
+    "terminal_trade_allowed": false,
+    "account_trade_allowed": false,
+    "error": "MetaTrader5 no está disponible. Usá el terminal y Python de Windows.",
+    "error_code": "MT5_MODULE_UNAVAILABLE",
+    "mt5_code": null
+  }
+}
+
+Código de salida del diagnóstico: 2

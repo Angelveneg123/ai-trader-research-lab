@@ -1,0 +1,93 @@
+{
+  "mode": "OFFLINE_NO_ORDERS",
+  "source": "V1.9.8 CSV",
+  "assumptions": "Spread 0.8 pip, slippage 0.2 pip, commission 0 assumed unverified; execution not simulated with historical bid/ask",
+  "overall": {
+    "n": 69,
+    "gross_pips": 75.4,
+    "net_pips": 6.4,
+    "mean_net_pips": 0.0928,
+    "wins_net": 37,
+    "losses_net": 32
+  },
+  "direction": {
+    "BUY": {
+      "n": 20,
+      "gross_pips": 40.7,
+      "net_pips": 20.7,
+      "mean_net_pips": 1.035,
+      "wins_net": 11,
+      "losses_net": 9
+    },
+    "SELL": {
+      "n": 49,
+      "gross_pips": 34.7,
+      "net_pips": -14.3,
+      "mean_net_pips": -0.2918,
+      "wins_net": 26,
+      "losses_net": 23
+    }
+  },
+  "outcome": {
+    "LOSS": {
+      "n": 23,
+      "gross_pips": -193.6,
+      "net_pips": -216.6,
+      "mean_net_pips": -9.4174,
+      "wins_net": 0,
+      "losses_net": 23
+    },
+    "SESSION_CLOSE": {
+      "n": 14,
+      "gross_pips": 4.4,
+      "net_pips": -9.6,
+      "mean_net_pips": -0.6857,
+      "wins_net": 5,
+      "losses_net": 9
+    },
+    "WIN": {
+      "n": 32,
+      "gross_pips": 264.6,
+      "net_pips": 232.6,
+      "mean_net_pips": 7.2687,
+      "wins_net": 32,
+      "losses_net": 0
+    }
+  },
+  "chronological_halves": {
+    "first": {
+      "n": 34,
+      "gross_pips": 6.7,
+      "net_pips": -27.3,
+      "mean_net_pips": -0.8029,
+      "wins_net": 17,
+      "losses_net": 17
+    },
+    "second": {
+      "n": 35,
+      "gross_pips": 68.7,
+      "net_pips": 33.7,
+      "mean_net_pips": 0.9629,
+      "wins_net": 20,
+      "losses_net": 15
+    }
+  },
+  "cost_sensitivity": {
+    "0.8": 20.2,
+    "1.0": 6.4,
+    "1.1": -0.5,
+    "1.2": -7.4,
+    "1.5": -28.1
+  },
+  "break_even_total_cost_pips": 1.0928,
+  "naive_iid_bootstrap_mean_95pct_pips": [
+    -1.8464,
+    2.0159
+  ],
+  "warnings": [
+    "Bootstrap assumes independent identically distributed trades and is not evidence of independent validation",
+    "11 pilot versus 89 new decisions cannot be identified reliably from this CSV alone",
+    "No commission, variable spread, slippage or actual execution confirmed",
+    "Chronological halves are descriptive, not a held-out test"
+  ]
+}

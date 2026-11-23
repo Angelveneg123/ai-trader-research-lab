@@ -1,0 +1,18 @@
+{
+  "mode": "OFFLINE_NO_ORDERS",
+  "symbol": "EURUSDmicro",
+  "trades": 70,
+  "spread_pips_assumed": 0.8,
+  "slippage_pips_roundtrip_assumed": 0.2,
+  "commission_usd_per_lot_roundtrip_assumed": 0.0,
+  "commission_verified": false,
+  "min_lot": 0.1,
+  "contract_size": 1000.0,
+  "gross_pips": 60.9,
+  "net_pips_estimate": -9.1,
+  "risk_cap_usd": 0.25,
+  "feasible_count": 69,
+  "infeasible_count": 1,
+  "unknown_feasibility_count": 0,
+  "warning": "Muestras de spread no representan spreads históricos. Comisiones y slippage deben verificarse. Cálculo usa pips y lote mínimo; no modela bid/ask histórico ni ejecución real."
+}

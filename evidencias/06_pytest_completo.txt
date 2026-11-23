@@ -1,0 +1,63 @@
+...............................................                          [100%]
+=============================== warnings summary ===============================
+tests/test_prospective_v23.py::test_session_settlement_and_dashboard_api
+  /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+==================================== PASSES ====================================
+______________ test_diagnostic_only_no_trade_or_prospective_cycle ______________
+----------------------------- Captured stdout call -----------------------------
+EURUSDmicro: DIAGNOSTIC_ONLY · vela M5 cerrada 2026-11-20T13:00:12+00:00 · antigüedad 1800 s · SIN ÓRDENES
+EURUSDmicro · gemini: DIAGNOSTIC_ONLY · WAIT · costo estimado: 0.000185 USD · SIN ÓRDENES
+EURUSDmicro: DIAGNOSTIC_ONLY · vela M5 cerrada 2026-11-20T13:00:12+00:00 · antigüedad 1800 s · SIN ÓRDENES
+EURUSDmicro · gemini: ya diagnosticado para esta vela
+=========================== short test summary info ============================
+PASSED tests/test_audit_v16.py::test_temporal_guard
+PASSED tests/test_audit_v16.py::test_outcomes_only_closed
+PASSED tests/test_audit_v16.py::test_rejects_misaligned_candle
+PASSED tests/test_audit_v16.py::test_outcomes_reject_gaps_and_do_not_use_late_spread
+PASSED tests/test_backtest_v18.py::BacktestTests::test_explicit_costs_required
+PASSED tests/test_backtest_v18.py::BacktestTests::test_ohlc_match_and_mismatch
+PASSED tests/test_backtest_v18.py::BacktestTests::test_read_only
+PASSED tests/test_config.py::test_safe_defaults
+PASSED tests/test_diagnostics_v181.py::DiagnosticsTests::test_invalid_limit
+PASSED tests/test_diagnostics_v181.py::DiagnosticsTests::test_missing_costs_rejected
+PASSED tests/test_diagnostics_v181.py::DiagnosticsTests::test_no_data
+PASSED tests/test_gemini_v19.py::GeminiTests::test_response_validation
+PASSED tests/test_gemini_v19.py::GeminiTests::test_temporal_boundary_and_session
+PASSED tests/test_historical_v17.py::HistoryTests::test_import_is_idempotent_and_separate
+PASSED tests/test_historical_v17.py::HistoryTests::test_validation_rejects_future_or_bad_ohlc
+PASSED tests/test_mt5_v25.py::test_classifies_native_error[-6-AUTHORIZATION_FAILED-1]
+PASSED tests/test_mt5_v25.py::test_classifies_native_error[-10005-IPC_TIMEOUT-2]
+PASSED tests/test_mt5_v25.py::test_classifies_native_error[-10003-IPC_FAILED-2]
+PASSED tests/test_mt5_v25.py::test_selects_path_and_recovers_once
+PASSED tests/test_mt5_v25.py::test_wrong_demo_server_and_disconnected
+PASSED tests/test_prospective_v23.py::test_mt5_to_two_providers_and_daily_cost
+PASSED tests/test_prospective_v23.py::test_graceful_provider_failure_does_not_repeat
+PASSED tests/test_prospective_v23.py::test_cap_total_not_reset_daily
+PASSED tests/test_prospective_v23.py::test_outside_session_and_live_account_are_blocked
+PASSED tests/test_prospective_v23.py::test_evaluate_only_post_response_ticks_with_costs
+PASSED tests/test_prospective_v23.py::test_demo_entry_risk_and_session_keeps_protected_position
+PASSED tests/test_prospective_v23.py::test_news_daily_loss_and_wrong_account_block_entries
+PASSED tests/test_prospective_v23.py::test_telegram_report_written_and_deduplicated
+PASSED tests/test_prospective_v23.py::test_session_settlement_and_dashboard_api
+PASSED tests/test_prospective_v23.py::test_diagnostic_only_no_trade_or_prospective_cycle
+PASSED tests/test_prospective_v23.py::test_diagnostic_requires_explicit_cost_consent
+PASSED tests/test_prospective_v23.py::test_cumulative_budget_includes_diagnostic_reservations
+PASSED tests/test_prospective_v23.py::test_openai_disabled_before_call
+PASSED tests/test_prospective_v23.py::test_authenticated_entry_control_and_missing_mt5
+PASSED tests/test_prospective_v23.py::test_modify_refuses_more_risk_and_manages_only_owned
+PASSED tests/test_prospective_v23.py::test_uncertain_close_is_not_resent
+PASSED tests/test_prospective_v23.py::test_calendar_unverified_result_blocks_entries
+PASSED tests/test_prospective_v23.py::test_no_demo_start_with_unverified_commission
+PASSED tests/test_prospective_v23.py::test_historical_gemini_uses_same_budget
+PASSED tests/test_quality_v171.py::QualityTests::test_classification
+PASSED tests/test_quality_v171.py::QualityTests::test_gap_and_alignment_without_interpolation
+PASSED backend/tests/test_v24.py::Tests::test_buy_and_sell_adverse_buffer
+PASSED backend/tests/test_v24.py::Tests::test_calendar_blocks_expired_and_high_impact
+PASSED backend/tests/test_v24.py::Tests::test_commission_is_counted
+PASSED backend/tests/test_v24.py::Tests::test_news_rejects_naive_time
+PASSED backend/tests/test_v24.py::Tests::test_no_events_does_not_replace_existing_file
+PASSED backend/tests/test_v24.py::Tests::test_oversized_minimum_is_rejected_by_cap
+47 passed, 1 warning in 0.48s

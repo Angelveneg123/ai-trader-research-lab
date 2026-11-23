@@ -1,0 +1,6 @@
+$ node evidencias/comprobar_dom.cjs
+SIMULADA | HTTP 200 | SQLite → FastAPI → React
+Ciclo 95ce0631621389e55cd911da Vela UTC 2026-11-20T13:00:00+00:00 Respuesta UTC 2026-11-20T13:00:12+00:00
+El observador FastAPI sigue activo al cerrar el DOM. Último sondeo 2026-11-22T22:43:26.511720+00:00
+
+Código de salida: 0
